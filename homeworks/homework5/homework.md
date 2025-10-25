@@ -16,6 +16,9 @@ In this homework, we're going to continue working with the lead scoring dataset.
 * Use `--version` to find out
 
 
+Answer: uv 0.9.5 (d5f39331a 2025-10-21)
+
+
 ## Initialize an empty uv project
 
 You should create an empty folder for homework
@@ -28,6 +31,7 @@ and do it there.
 * What's the first hash for Scikit-Learn you get in the lock file?
 * Include the entire string starting with sha256:, don't include quotes
 
+Answer: sha256:2ffa1e9e25b3d93990e74a4be2c2fc61ee5af85811562f1288d5d055880c4322
 
 ## Models
 
@@ -81,7 +85,7 @@ Let's use the model!
 What's the probability that this lead will convert? 
 
 * 0.333
-* 0.533
+* [X] 0.533
 * 0.733
 * 0.933
 
@@ -114,7 +118,7 @@ requests.post(url, json=client).json()
 What's the probability that this client will get a subscription?
 
 * 0.334
-* 0.534
+* [X] 0.534
 * 0.734
 * 0.934
 
@@ -151,12 +155,13 @@ Download the base image `agrigorev/zoomcamp-model:2025`. You can easily make it 
 So what's the size of this base image?
 
 * 45 MB
-* 121 MB
+* [X]121 MB
 * 245 MB
 * 330 MB
 
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
 
+Note* I get 181
 
 ## Dockerfile
 
