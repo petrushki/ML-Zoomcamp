@@ -4,7 +4,7 @@ import uvicorn
 from typing import Dict, Any
 
 
-model_file = "pipeline_v1.bin"
+model_file = "pipeline_v2.bin"
 
 
 with open(model_file, 'rb') as f_in:

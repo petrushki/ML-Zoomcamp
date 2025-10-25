@@ -7,7 +7,7 @@ WORKDIR /code
 
 ENV PATH="/code/.venv/bin:$PATH"
 
-COPY "pyproject.toml" "uv.lock"  ".python-version" "pipeline_v1.bin" ./
+COPY "pyproject.toml" "uv.lock"  ".python-version"  ./
 
 RUN uv sync --locked
 
